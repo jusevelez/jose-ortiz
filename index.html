@@ -113,7 +113,14 @@
                   <h3 class=" mb-0 has-text-white has-text-centered is-uppercase is-size-3 has-text-weight-semibold">Unete a mi equipo</h3>
                   <h3 class="has-text-white has-text-centered is-uppercase has-text-weight-light is-size-5">Y GANA CONMIGO</h3>
               </div>
-              <form class="py-4 px-3" action=""> 
+
+              <script type="text/javascript">var submitted=false;</script> 
+
+              <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
+              onload="if(submitted) {window.location='#';}">
+              </iframe> 
+
+              <form class="py-4 px-3" action="action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeVHLp9Wm2NMUvb-IrcdBtg5Lt-fdJwggAUIEa9Wiytyiknyg/formResponse" method="post" target="hidden_iframe" onsubmit="return validateForm();"> 
                 <div class="field">
                     <label class="label">Nombre</label>
                     <div class="control has-icons-left has-icons-right">
