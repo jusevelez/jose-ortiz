@@ -1,5 +1,9 @@
 /* utilidades*/
 
+body {
+    overflow: hidden; 
+}
+
 p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
