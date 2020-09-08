@@ -1,0 +1,183 @@
+/* utilidades*/
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+h3, h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bold {
+    font-weight:700;
+}
+
+.fondo {
+    background-size: cover;
+    background-position: center;
+}
+
+.over-flow {
+    overflow: hidden;
+}
+
+.titulo {
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 5.2rem;
+    line-height: 1.2;
+}
+
+.line-height {
+    line-height: 1.25;
+}
+
+.border {
+    border-radius: 6px;
+}
+
+/* Estilos personalizados */
+
+
+.hero-img {
+    background-image: url(../img/back-hero.png);
+    /* height: 85vh; */
+}
+
+.img-jose {
+    margin-bottom:-40px;
+   
+}
+
+.form-background {
+    background-color: rgba(242,242,242,0.7);
+    /* border-radius: 4px; */
+}
+
+.heading-background {
+    background-color: #E59301;
+    line-height: 1.2;
+
+}
+
+.btn-color {
+    background-color: #E59301;
+    color: white;
+    border: none;
+}
+
+.btn-color:hover {
+    background-color: white;
+    color: #E59301;
+    border: none;
+}
+
+.main-title {
+    color: #500d52 ;
+}
+
+.heading-form {
+    border-radius: 6px 6px 0 0;
+}
+
+.font-custom {
+    font-size:1.5rem;
+}
+
+.section-back-1 {
+    background-image: url(../img/back-2.png);
+    
+}
+
+.section-back-1 h2 {
+    color:#fae387;
+    
+}
+
+.custom-shape-divider-top-1599588608 {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    /* line-height: 0; */
+}
+
+.custom-shape-divider-top-1599588608 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 100px;
+}
+
+.custom-shape-divider-top-1599588608 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+
+/* breakpoints */
+
+@media screen  and (min-width: 901px) {
+
+    .remove-desktop {
+        display: none;
+    }
+
+    }
+
+
+@media screen and (max-width: 900px) and (min-width: 750px) {
+
+    .remove-responsive {
+        display: none;
+    }
+    .img-jose {
+        margin-bottom:-40px;
+       
+    }
+
+    .center-items {
+        text-align: center;
+    }
+  
+  }
+
+  @media screen and (max-width: 768px) and (min-width: 420px) {
+    
+    .remove-responsive {
+        display: none;
+    }
+
+    .img-jose {
+        margin-bottom:-40px;
+        
+       
+    }
+    .center-items {
+        text-align: center;
+    }
+
+    .titulo {
+        margin-bottom: 2.5rem;
+    }
+     
+    }
+
+
+  
+
+  @media screen  and (max-width: 420px) {
+
+    .remove-responsive {
+        display: none;
+    }
+
+    .center-items {
+        text-align: center;
+    }
+
+
+    }
+
+    
