@@ -27,7 +27,7 @@ h3, h1, h2 {
 }
 
 .titulo {
-    font-family: 'La Belle Aurore', cursive;
+    font-family: 'Yellowtail', cursive;
     font-size: 5.2rem;
     line-height: 1.2;
 }
@@ -40,6 +40,24 @@ h3, h1, h2 {
     border-radius: 6px;
 }
 
+.font-custom {
+    font-size:1.5rem;
+}
+
+.font-custom-2 {
+    font-size:2rem;
+    font-weight: bold;
+}
+.font-custom-3 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #E59301;
+}
+
+.section-height {
+    height: 88vh;
+}
+
 /* Estilos personalizados */
 
 
@@ -50,6 +68,11 @@ h3, h1, h2 {
 
 .img-jose {
     margin-bottom:-40px;
+   
+}
+
+.img-jose-2 {
+    margin-bottom:-8px;
    
 }
 
@@ -76,7 +99,7 @@ h3, h1, h2 {
     border: none;
 }
 
-.main-title {
+.main-color {
     color: #500d52 ;
 }
 
@@ -84,12 +107,11 @@ h3, h1, h2 {
     border-radius: 6px 6px 0 0;
 }
 
-.font-custom {
-    font-size:1.5rem;
-}
+
 
 .section-back-1 {
     background-image: url(../img/back-2.png);
+    background-size: cover;
     
 }
 
@@ -118,6 +140,33 @@ h3, h1, h2 {
     fill: #FFFFFF;
 }
 
+.section-back-2 {
+    background-image: url(../img/back-3.png);
+    background-size: cover;
+}
+
+
+.center-image {
+    margin-left: 49%;
+    margin-right: 49%;
+}
+
+.flex-section {
+    display: flex;
+    gap:10px;
+}
+
+.section-back-3 {
+    background-image: url(../img/back-4.png);
+    background-size: cover;
+}
+
+.btn-contact {
+    border-style:solid;
+    border-color: white ;
+    border-width: 2px;
+    padding: 8px 0;
+}
 
 
 /* breakpoints */
@@ -140,11 +189,13 @@ h3, h1, h2 {
         margin-bottom:-40px;
        
     }
-
-    .center-items {
-        text-align: center;
+    .flex-section {
+        display: flex;
+        flex-direction: column;
+        gap:10px;
     }
-  
+
+   
   }
 
   @media screen and (max-width: 768px) and (min-width: 420px) {
@@ -165,6 +216,12 @@ h3, h1, h2 {
     .titulo {
         margin-bottom: 2.5rem;
     }
+    
+    .flex-section {
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+    }
      
     }
 
@@ -179,6 +236,12 @@ h3, h1, h2 {
 
     .center-items {
         text-align: center;
+    }
+
+    .flex-section {
+        display: flex;
+        flex-direction: column;
+        
     }
 
 
