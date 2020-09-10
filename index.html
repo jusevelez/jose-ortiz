@@ -6,86 +6,8 @@
     <title>Jose Ortiz</title>
     <link rel="stylesheet" href="/css/bulma.min.css">
     <link rel="stylesheet" href="/css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">     
-    <style>
-		p { margin: 0 0 15px 0; }
-		.sidebar-box { 
-			/* float: left; 
-			width: 250px; */
-			margin: 0 20px 0 0;
-		}
-		.sidebar-box {
-			max-height: 180px;
-			position: relative;
-			padding: 20px;
-			overflow: hidden;
-		}
-		.sidebar-box .read-more { 
-			position: absolute; 
-			bottom: 0; left: 0;
-			width: 100%; 
-			text-align: center; 
-			margin: 0; 
-			padding: 30px 0 30px 0; 
-			
-			/* "transparent" only works here because == rgba(0,0,0,0) */ 
-			background-image: -moz-linear-gradient(top, transparent, white);
-				background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, transparent),color-stop(1, white));
-		}
-		.gray {
-			background-color: #444;
-			background-color: rgb(89,89,89);
-		}
-		.red {
-			background-color: #fff;
-		}
-		
-	</style>
-	
-	<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js'></script>
-	<script>
-		// DOM Ready
-		$(function() {
-		
-			var $el, $ps, $up, totalHeight;
-			
-			$(".sidebar-box .button-colapse").click(function() {
-			
-				// IE 7 doesn't even get this far. I didn't feel like dicking with it.
-						
-				totalHeight = 0
-			
-				$el = $(this);
-				$p  = $el.parent();
-				$up = $p.parent();
-				$ps = $up.find("p:not('.read-more')");
-				
-				// measure how tall inside should be by adding together heights of all inside paragraphs (except read-more paragraph)
-				$ps.each(function() {
-					totalHeight += $(this).outerHeight();
-					// FAIL totalHeight += $(this).css("margin-bottom");
-				});
-							
-				$up
-					.css({
-						// Set height to prevent instant jumpdown when max height is removed
-						"height": $up.height(),
-						"max-height": 9999
-					})
-					.animate({
-						"height": totalHeight
-					});
-				
-				// fade out read-more
-				$p.fadeOut();
-				
-				// prevent jump-down
-				return false;
-					
-			});
-		
-		});
-	</script>
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">     	
+	<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js'></script>	
 </head>
 <body>
 
@@ -293,7 +215,7 @@
                     gratificante que trae a mi vida.
                 </p>
                 
-                <p class="has-text-white is-size-5">No tengo la fórmula del éxito inmediato, pero si tengo la capacidad de <span class="bold font-custom "> forjar lideres</span> construidos a base de disciplina y a quienes reto constantemente para para que construyan un futuro esmerado y lleno de recompensas.
+                <p class="has-text-white is-size-5 mt-2">No tengo la fórmula del éxito inmediato, pero si tengo la capacidad de <span class="bold font-custom "> forjar lideres</span> construidos a base de disciplina y a quienes reto constantemente para para que construyan un futuro esmerado y lleno de recompensas.
                 </p>
               
             </div>
@@ -309,17 +231,16 @@
     <div class="container">
         <div class="columns">
            <div class="column is-three-fifths is-offset-one-fifth">
-            <h2 class="is-size-1 has-text-centered  bold main-color"> Truvy + TNT</h2>   
-            <div id="page-wrap">
-                <div class="sidebar-box red">
-                    <p class="is-size-5 has-text-centered">
+                <h2 class="is-size-1 has-text-centered  bold main-color"> Truvy + TNT</h2>   
+        
+                <p class="is-size-5 has-text-centered mt-4">
                         Me encanta romper récords, pues son los resultados del trabajo fuerte, ellos motivan a seguir adelante y a ir por más, por lo grande. En <span class="bold"> Truvy </span> soy el dueño de los Récords mas importantes, con ello somos precursores de un movimiento, de una comunidad que tiene como objetivo inspirar la vida de sus integrantes para que <span class="bold"> enriquezcan su liderazgo.  </span> 
-                    </p>
-                    <p class="is-size-5 has-text-centered">
+                 </p>
+                <p class="is-size-5 has-text-centered mt-3">
                         Como creador de <span class="bold"> TNT (Titanes Network Team) </span> tengo la satisfacción de tener mas de 25.000 personas como miembros activos y sobre todo personas felices por el cambio que ha dado su vida.
-                    </p>
-                    <p class="read-more"><a href="" class="button-colapse">Leer Más</a></p>
-                </div>
+                </p>
+                <p class="read-more has-text-centered mt-6"><a href="#" class="button-colapse">Contáctame Personalmente</a></p>
+              
         
             </div> 
            </div>
