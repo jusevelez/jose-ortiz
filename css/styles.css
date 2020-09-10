@@ -54,9 +54,7 @@ h3, h1, h2 {
     color: #E59301;
 }
 
-.section-height {
-    height: 88vh;
-}
+
 
 /* Estilos personalizados */
 
@@ -217,6 +215,7 @@ h3, h1, h2 {
     }
 
 
+
 @media screen and (max-width: 900px) and (min-width: 750px) {
 
     .remove-responsive {
@@ -232,6 +231,11 @@ h3, h1, h2 {
         gap:10px;
     }
 
+    .col-color {
+        background-color: #ffffff8c;
+        margin:0 10px 0 10px;
+        border-radius: 4px;
+    }
    
   }
 
@@ -259,6 +263,12 @@ h3, h1, h2 {
         flex-direction: column;
         gap:10px;
     }
+
+    .col-color {
+        background-color: #ffffff8c;
+        margin:0 10px 0 10px;
+        border-radius: 4px;
+    }
      
     }
 
@@ -281,6 +291,11 @@ h3, h1, h2 {
         
     }
 
+    .col-color {
+        background-color: #ffffff8c;
+        margin:0 10px 0 10px;
+        border-radius: 4px;
+    }
 
     }
 
