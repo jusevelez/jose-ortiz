@@ -1,63 +1,63 @@
 
-function validateName() {
-    var name = document.getElementById('name').value;
-    if(name.length == 30) {
-      alert("Por favor ingresa tu nombre") ;
-      return false;
+// function validateName() {
+//     var name = document.getElementById('name').value;
+//     if(name.length == 30) {
+//       alert("Por favor ingresa tu nombre") ;
+//       return false;
 
-    }
-    // if (!name.match(/^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$/)) {
-    //   alert("Por favor ingresa un nombre correcto") ;//Validation Message
-    //   return false;
-    // }
-    // return true;
-  }
+//     }
+//     // if (!name.match(/^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$/)) {
+//     //   alert("Por favor ingresa un nombre correcto") ;//Validation Message
+//     //   return false;
+//     // }
+//     // return true;
+//   }
 
-  function validatePhone() {
-    var phone = document.getElementById('phone').value;
-    if(phone.length == 30) {
-      alert("Por favor ingresa un numero de teléfono") ;//Validation Message
-      return false;
-    }
+//   function validatePhone() {
+//     var phone = document.getElementById('phone').value;
+//     if(phone.length == 30) {
+//       alert("Por favor ingresa un numero de teléfono") ;//Validation Message
+//       return false;
+//     }
 
-//     if(!phone.match(/^[0]?[789]\d{9}$/)) {
-//      alert("Please enter a correct phone number") ;//Validation Message
-//      return false;
-//    }
+// //     if(!phone.match(/^[0]?[789]\d{9}$/)) {
+// //      alert("Please enter a correct phone number") ;//Validation Message
+// //      return false;
+// //    }
 
-  //  return true;
+//   //  return true;
 
- }
+//  }
 
- function validateEmail () {
+//  function validateEmail () {
 
-  var email = document.getElementById('email').value;
-  if(email.length == 0) {
-    alert("Por favor ingresa su correo electrónico") ;//Validation Message
-    return false;
+//   var email = document.getElementById('email').value;
+//   if(email.length == 0) {
+//     alert("Por favor ingresa su correo electrónico") ;//Validation Message
+//     return false;
 
-  }
+//   }
 
-  if(!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
-    alert("Por favor ingresa una cuenta de correo valida") ;//Validation Message
-    return false;
+//   if(!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
+//     alert("Por favor ingresa una cuenta de correo valida") ;//Validation Message
+//     return false;
 
-  }
+//   }
 
-  return true;
+//   return true;
 
-}
+// }
 
 
-function validateForm() {
-  if (!validateName() || !validatePhone() || !validateEmail()) {
+// function validateForm() {
+//   if (!validateName() || !validatePhone() || !validateEmail()) {
 
-    alert("Por favor verifica nuevamente la información ingresada");//Validation Message
-    return false;
-  }
-  else {
-    submitted=true;
-    return true;
-  }
-}
+//     alert("Por favor verifica nuevamente la información ingresada");//Validation Message
+//     return false;
+//   }
+//   else {
+//     submitted=true;
+//     return true;
+//   }
+// }
 
