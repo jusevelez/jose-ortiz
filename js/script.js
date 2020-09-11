@@ -15,7 +15,7 @@ function validateName() {
 
   function validatePhone() {
     var phone = document.getElementById('phone').value;
-    if(phone.length == 0) {
+    if(phone.length == 30) {
       alert("Por favor ingresa un numero de teléfono") ;//Validation Message
       return false;
     }
