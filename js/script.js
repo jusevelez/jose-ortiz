@@ -10,7 +10,7 @@ function validateName() {
     //   alert("Por favor ingresa un nombre correcto") ;//Validation Message
     //   return false;
     // }
-    return true;
+    // return true;
   }
 
   function validatePhone() {
@@ -25,7 +25,7 @@ function validateName() {
 //      return false;
 //    }
 
-   return true;
+  //  return true;
 
  }
 
