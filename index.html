@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="/css/bulma.min.css">
     <link rel="stylesheet" href="/css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Yellowtail&family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">     	
-	<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js'></script>	
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js'></script>	
 </head>
 <body>
 
@@ -15,13 +16,27 @@
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v8.0&appId=189111785191409&autoLogAppEvents=1" nonce="BPrMmf13"></script>
     
 <header class="container">
-    <div class="columns my-0">
-        <div class="column is-full center-items">
+    <div class="columns my-0 is-vcentered">
+        <div class="column is-10 center-items">
             <a href="#">
                 <img src="/img/Logotipo.png" alt="Jose Ortiz Logo">
             </a>
         </div>
+        <div class="column auto center-items">
+          <a class="button is-small is-facebook">
+            <span class="icon">
+              <i class="fab fa-facebook fa-lg"></i>
+            </span>
+          </a>
+          <a class="button is-small is-instagram ml-4">
+            <span class="icon">
+              <i class="fab fa-instagram fa-lg"></i>
+            </span>
+          </a>
+        </div>
+        
     </div>
+    
 </header>
 
 <section class="remove-responsive section hero-img fondo over-flow py-5">
@@ -50,7 +65,7 @@
               <script type="text/javascript">var submitted=false;</script> 
 
               <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
-              onload="if(submitted) {window.location='#';}">
+              onload="if(submitted) {window.location='/gracias.html';}">
               </iframe> 
 
               <form class="py-4 px-3" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeVHLp9Wm2NMUvb-IrcdBtg5Lt-fdJwggAUIEa9Wiytyiknyg/formResponse" method="post" target="hidden_iframe" onsubmit="return validateForm(); "> 

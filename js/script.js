@@ -1,15 +1,15 @@
 
 function validateName() {
     var name = document.getElementById('name').value;
-    if(name.length == 0) {
+    if(name.length == 30) {
       alert("Por favor ingresa tu nombre") ;
       return false;
 
     }
-    if (!name.match(/^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$/)) {
-      alert("Por favor ingresa un nombre correcto") ;//Validation Message
-      return false;
-    }
+    // if (!name.match(/^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$/)) {
+    //   alert("Por favor ingresa un nombre correcto") ;//Validation Message
+    //   return false;
+    // }
     return true;
   }
 

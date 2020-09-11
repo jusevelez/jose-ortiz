@@ -203,6 +203,10 @@ h3, h1, h2 {
     background: #500d52;
  }
 
+ .full-hg {
+     height: 100vh;
+ 
+ }
 
 /* breakpoints */
 
